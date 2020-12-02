@@ -1,0 +1,26 @@
+Kalendáø
+
+Aplikace pro správu kalendáøe s možností vytváøet události a jejich hledání.
+
+Implementujte následující funcionalitu:
+
+denní, týdenní a mìsíèní zobrazení kalendáøe
+vytváøet a spravovat události (èas, místo, datum, úèastníci, ...)
+možnost nastavit události opakování (jednou za týden, 14 dní, ...)
+hledat události podle názvu a/nebo místa konání
+hledat nejbližší možný termín a možnost pøesouvat události
+exportování a importování událostí
+Použití polymorfismu (doporuèené)
+
+druhy událostí: povinná, volitelná, pøesunutelná, ...
+strategie pøesunù: nejbližší možný (s omezením), nejbližší možný s pøesunutím X jiných událostí
+zobrazení kalendáøe (denní, týdenní, mìsíèní)
+formáty exportovaných událostí
+Dobrovolné možné rozšíøení:
+
+GUI - pomocí nìkteré z dovolených knihoven
+importování iCalendar (ics) formátu dat
+Další informace:
+
+http://en.cppreference.com/w/cpp/chrono
+https://en.wikipedia.org/wiki/ICalendar
